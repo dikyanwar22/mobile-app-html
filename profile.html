@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .profile-header {
+            background: linear-gradient(to right, #2980b9, #6dd5fa);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-bottom: 20px;
+        }
+        .profile-name {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .profile-bio {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .profile-btn {
+            background-color: #2980b9;
+            border: none;
+        }
+        .profile-btn:hover {
+            background-color: #1f6696;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 profile-header">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+                <h2 class="profile-name">John Doe</h2>
+                <p class="profile-bio">Web Developer | UI/UX Designer | Tech Enthusiast</p>
+                <a href="#" class="btn btn-lg btn-primary profile-btn">Edit Profile</a>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4 offset-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        About Me
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Email:</strong> johndoe@example.com</p>
+                        <p><strong>Location:</strong> New York</p>
+                        <p><strong>Bio:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
